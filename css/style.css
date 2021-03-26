@@ -1,10 +1,5 @@
 /* Debug */
 
-#goals-table {
-    height: 600px;
-    background: lightgreen;
-}
-
 #get-start {
     height: 600px;
     background-color: greenyellow;
@@ -143,7 +138,7 @@ ul {
 /* Text rules */
 
 h1 {
-    margin: 3% 0;
+    margin: 0 0 3%;
     font-size: 60px;
     font-weight: 900;
 }
@@ -335,4 +330,62 @@ img[src*=book] {
 
 #central-banner {
     margin: 0 14%;
+}
+
+
+/* Goals Table */
+
+#goals-table {
+    padding-bottom: 3%;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    color: white
+}
+
+#goals-table h2 {
+    padding-top: 2%;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.box-cell {
+    width: calc(25% - 10px);
+    border: 1px solid white;
+}
+
+.box-cell>img {
+    height: 3em;
+    margin-top: 5%;
+}
+
+.box-cell>p {
+    margin-bottom: 12%;
+}
+
+.number {
+    padding: 2% 0;
+    line-height: 1.3em;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.operator {
+    vertical-align: bottom;
+    font-size: 25px;
+}
+
+.b-top {
+    border-top: none;
+}
+
+.b-left {
+    border-left: none;
+}
+
+.b-right {
+    border-right: none;
+}
+
+.b-bottom {
+    border-bottom: none;
 }
