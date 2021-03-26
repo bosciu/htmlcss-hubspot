@@ -1,10 +1,5 @@
 /* Debug */
 
-#login-bar {
-    height: 60px;
-    background-color: grey;
-}
-
 nav {
     height: 80px;
     background-color: red;
@@ -75,24 +70,46 @@ footer {
 
 body {
     font-family: 'Nunito', sans-serif;
+    color: #33475b;
+    font-weight: 400;
 }
 
 .container {
     height: 100%;
     width: 80%;
     margin: 0 auto;
-    border: 5px solid black;
 }
 
 .container-60 {
     height: 100%;
     width: 60%;
     margin: 0 auto;
-    border: 5px solid black;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    line-height: initial;
+    color: white;
+    background-color: #FE785A;
+}
+
+.btn-white {
+    border: 1px solid #FE785A;
+    background-color: white;
+    color: #FE785A;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 .float-left {
     float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 .clearfix::after {
@@ -103,6 +120,47 @@ body {
 
 
 /* Header */
+
+#login-bar {
+    background-color: #f4f9fd;
+}
+
+header ul {
+    display: inline-block;
+    line-height: 3;
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+}
+
+#language {
+    margin: 0 5px;
+}
+
+#vertical-separator {
+    height: 20px;
+    margin: 0 15px;
+    vertical-align: sub;
+    border: 1px solid #33475b;
+}
+
+#search-symbol {
+    color: #00A4BD;
+}
+
+ul.float-right>li {
+    margin-left: 15px;
+}
+
+#login-bar>div:first-child {
+    padding: 10px 0;
+}
+
+header hr {
+    border-color: #32495b;
+}
 
 
 /* Main */
