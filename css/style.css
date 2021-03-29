@@ -1,10 +1,5 @@
 /* Debug */
 
-#get-start {
-    height: 600px;
-    background-color: greenyellow;
-}
-
 footer {
     height: 600px;
     background-color: grey;
@@ -32,8 +27,7 @@ body {
     height: 100%;
     width: 80%;
     margin: 0 auto;
-    /*     border: 1px solid black;
- */
+    border: 1px solid black;
 }
 
 .w-60 {
@@ -144,6 +138,7 @@ h1 {
 }
 
 h2 {
+    font-size: 40px;
     margin: 3% 0;
 }
 
@@ -154,6 +149,10 @@ h3 {
 p {
     margin: 3% 0;
     font-size: 20px;
+}
+
+.small-text {
+    font-size: 16px;
 }
 
 .text-center {
@@ -343,7 +342,6 @@ img[src*=book] {
 
 #goals-table h2 {
     padding-top: 2%;
-    font-size: 39px;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -388,4 +386,37 @@ img[src*=book] {
 
 .b-bottom {
     border-bottom: none;
+}
+
+
+/* Get start */
+
+#info-sponsor {
+    width: 25%;
+    padding: 2% 5%;
+    line-height: 2;
+}
+
+#sponsors {
+    height: 12em;
+    width: 60%;
+}
+
+.sponsor-img {
+    position: relative;
+    width: calc(100% / 4);
+    height: 50%;
+}
+
+.sponsor-img>img {
+    width: 80%;
+}
+
+#start-today {
+    margin: 0 0;
+    color: black;
+}
+
+#start-today>p {
+    margin: 7% 0;
 }
