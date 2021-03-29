@@ -364,7 +364,7 @@ img[src*=book] {
     font-weight: 700;
 }
 
-.operator {
+div.box-cell span:last-child {
     vertical-align: bottom;
     font-size: 25px;
 }
