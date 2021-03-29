@@ -407,7 +407,7 @@ div.box-cell span:last-child {
     line-height: 100px;
 }
 
-.sponsor-img>img {
+#sponsors img {
     width: 80%;
     vertical-align: middle;
 }
