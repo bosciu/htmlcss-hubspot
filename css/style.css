@@ -469,6 +469,7 @@ footer ul>li:first-child {
 }
 
 footer li {
+    display: table;
     margin: 3% 0;
 }
 
