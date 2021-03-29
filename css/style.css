@@ -1,9 +1,3 @@
-/* Debug */
-
-
-/* /Debug */
-
-
 /* Common */
 
 * {
@@ -73,22 +67,11 @@ img[src*=table] {
     border: 1px solid #FE785A;
     background-color: white;
     color: #FE785A;
+    transition: background-color 1s;
 }
 
 .btn-center {
     margin: 7% 0 0 30%;
-}
-
-.btn:not(.btn-white):hover {
-    opacity: 0.5;
-}
-
-.btn-white {
-    transition: background-color 1s;
-}
-
-.btn-white:hover {
-    background-color: #fe785a40;
 }
 
 img[src*=logo] {
@@ -97,19 +80,6 @@ img[src*=logo] {
 
 ul {
     list-style: none;
-}
-
-li:not(.btn):hover,
-#language-footer>a:hover {
-    text-decoration: underline;
-    color: #007a8c;
-    cursor: pointer;
-}
-
-#social-link>i:hover,
-#privacy>div:hover {
-    cursor: pointer;
-    color: #0091ae;
 }
 
 .inline-block {
@@ -189,6 +159,30 @@ p {
 
 .white {
     color: white;
+}
+
+
+/* Hover effects */
+
+.btn:not(.btn-white):hover {
+    opacity: 0.5;
+}
+
+.btn-white:hover {
+    background-color: #fe785a40;
+}
+
+li:not(.btn):hover,
+#language-footer>a:hover {
+    text-decoration: underline;
+    color: #007a8c;
+    cursor: pointer;
+}
+
+#social-link>i:hover,
+#privacy>div:hover {
+    cursor: pointer;
+    color: #0091ae;
 }
 
 
