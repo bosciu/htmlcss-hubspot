@@ -357,7 +357,8 @@ img[src*=book] {
     margin-bottom: 12%;
 }
 
-.number {
+div.box-cell>div,
+#info-sponsor div:first-child {
     padding: 2% 0;
     line-height: 1.3em;
     font-size: 47px;
@@ -400,7 +401,7 @@ div.box-cell span:last-child {
     width: 60%;
 }
 
-.sponsor-img {
+#sponsors>div {
     width: calc(100% / 4);
     height: 100px;
     line-height: 100px;
@@ -428,7 +429,7 @@ footer {
     color: #C5D1DD;
 }
 
-footer li.list-title {
+footer ul>li:first-child {
     color: white;
     margin: 4% 0;
     font-weight: 800;
