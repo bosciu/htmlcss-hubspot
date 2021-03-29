@@ -2,7 +2,6 @@
 
 footer {
     height: 600px;
-    background-color: grey;
 }
 
 
@@ -398,6 +397,7 @@ img[src*=book] {
 }
 
 #sponsors {
+    margin-top: 1%;
     height: 12em;
     width: 60%;
 }
@@ -419,4 +419,41 @@ img[src*=book] {
 
 #start-today>p {
     margin: 7% 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #32495B;
+    color: #8D9CAA;
+}
+
+footer li.list-title {
+    margin: 4% 0;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+footer li {
+    margin: 3% 0;
+}
+
+.btn-footer {
+    margin: 3% 0;
+    color: #32495B;
+    background-color: #DADEE0;
+}
+
+#social-link {
+    padding-top: 3%;
+}
+
+#social-link>i {
+    margin: 0 3%;
+}
+
+#social-link>i:first-child {
+    margin: 0 3% 0 0;
 }
