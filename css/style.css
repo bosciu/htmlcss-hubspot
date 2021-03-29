@@ -1,9 +1,5 @@
 /* Debug */
 
-footer {
-    height: 600px;
-}
-
 
 /* /Debug */
 
@@ -23,10 +19,8 @@ body {
 }
 
 .container {
-    height: 100%;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .w-60 {
@@ -162,6 +156,10 @@ p {
     color: #FE785A;
 }
 
+.white {
+    color: white;
+}
+
 
 /* Header */
 
@@ -207,7 +205,7 @@ nav ul {
 
 #jumbotron {
     background: url(../img/jumbotron.png) no-repeat;
-    background-position: 100% 44%;
+    background-position: 100% 52%;
     background-color: #FFF4EF;
 }
 
@@ -426,12 +424,12 @@ img[src*=book] {
 
 footer {
     background-color: #32495B;
-    color: #8D9CAA;
+    color: #C5D1DD;
 }
 
 footer li.list-title {
-    margin: 4% 0;
     color: white;
+    margin: 4% 0;
     font-weight: 800;
     font-size: 20px;
 }
@@ -451,9 +449,34 @@ footer li {
 }
 
 #social-link>i {
+    color: white;
     margin: 0 3%;
 }
 
 #social-link>i:first-child {
     margin: 0 3% 0 0;
+}
+
+#language-footer {
+    margin: 3% 0;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #C5D1DD;
+}
+
+#language-footer>a {
+    margin: 0 1%;
+    text-decoration: none;
+    color: #8D9CAA;
+}
+
+#privacy {
+    text-align: right;
+}
+
+#privacy>div {
+    margin: 0 1%;
+}
+
+#end-footer {
+    padding-bottom: 2%;
 }
