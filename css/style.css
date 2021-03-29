@@ -401,13 +401,14 @@ img[src*=book] {
 }
 
 .sponsor-img {
-    position: relative;
     width: calc(100% / 4);
-    height: 50%;
+    height: 100px;
+    line-height: 100px;
 }
 
 .sponsor-img>img {
     width: 80%;
+    vertical-align: middle;
 }
 
 #start-today {
