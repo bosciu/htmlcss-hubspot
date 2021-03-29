@@ -61,6 +61,8 @@ img[src*=table] {
     line-height: initial;
     color: white;
     background-color: #FE785A;
+    transition: opacity 1s;
+    cursor: pointer;
 }
 
 .btn-lg {
@@ -77,8 +79,37 @@ img[src*=table] {
     margin: 7% 0 0 30%;
 }
 
+.btn:not(.btn-white):hover {
+    opacity: 0.5;
+}
+
+.btn-white {
+    transition: background-color 1s;
+}
+
+.btn-white:hover {
+    background-color: #fe785a40;
+}
+
+img[src*=logo] {
+    cursor: pointer;
+}
+
 ul {
     list-style: none;
+}
+
+li:not(.btn):hover,
+#language-footer>a:hover {
+    text-decoration: underline;
+    color: #007a8c;
+    cursor: pointer;
+}
+
+#social-link>i:hover,
+#privacy>div:hover {
+    cursor: pointer;
+    color: #0091ae;
 }
 
 .inline-block {
@@ -164,6 +195,9 @@ p {
 /* Header */
 
 #login-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     background-color: #f4f9fd;
 }
 
@@ -197,6 +231,10 @@ ul.float-right>li {
 
 #login-bar>div:first-child {
     padding: 10px 0;
+}
+
+nav {
+    padding-top: 4%;
 }
 
 nav ul {
