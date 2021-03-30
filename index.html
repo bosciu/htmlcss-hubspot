@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/HubSpot-Inversed-Favicon.webp">
     <title>HubSpot | Inbound Marketing, Sales, and Service Software</title>
+    <script>
+        function text_chat_visible() {
+            document.getElementById("text-chat").style.opacity = 1;
+        }
+    </script>
 </head>
 
 <body>
@@ -376,7 +381,7 @@
                 <div class="cross"><span>&Cross;</span></div>
                 <p class="small-text">&#128075; Want to chat about HubSpot? I'm here to help you find your way. </p>
             </div>
-            <img class="float-right" src="img/bonus/launcher-open-icon.svg" alt="logo">
+            <img class="float-right" src="img/bonus/launcher-open-icon.svg" alt="logo" onclick="text_chat_visible()">
         </div>
     </div>
     <!-- /Chat panel -->

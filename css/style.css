@@ -556,11 +556,13 @@ footer li {
 }
 
 #text-chat {
+    opacity: 0;
     max-width: 260px;
     padding: 3% 4% 10%;
     margin-bottom: 10%;
     box-shadow: 0 0 23px #cbd1d6;
     background-color: white;
+    transition: opacity 1.5s;
 }
 
 #text-chat>img {
