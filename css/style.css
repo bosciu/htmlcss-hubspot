@@ -70,6 +70,15 @@ img[src*=table] {
     transition: background-color 1s;
 }
 
+.cross {
+    font-size: 2em;
+    text-align: right;
+}
+
+.cross>span {
+    cursor: pointer;
+}
+
 .btn-center {
     margin: 7% 0 0 30%;
 }
@@ -285,7 +294,7 @@ img[src*=cube] {
 #large-banner {
     margin-bottom: 3%;
     padding-top: 1px;
-    box-shadow: 0 0 23px #e6ecf1;
+    box-shadow: 0 0 23px #cbd1d6;
     background: white;
 }
 
@@ -354,7 +363,7 @@ img[src*=book] {
 
 .long-banner {
     background: white;
-    box-shadow: 0 0 23px #e6ecf1;
+    box-shadow: 0 0 23px #cbd1d6;
 }
 
 #central-banner {
@@ -521,22 +530,43 @@ footer li {
 }
 
 
-/* Prova */
+/* Chat panel */
 
-#chat-logo {
+#viewport {
     position: absolute;
     height: 100vh;
 }
 
-#chat-logo>img {
+#chat-block {
     position: fixed;
     bottom: 0;
     right: 0;
     z-index: 10;
     margin: 1%;
-    padding: 13px;
-    border: 2px solid black;
-    width: 4%;
-    background-color: blue;
+}
+
+#chat-block>img {
+    margin-bottom: 1%;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #425B76;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+#text-chat {
+    max-width: 260px;
+    padding: 3% 4% 10%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 23px #cbd1d6;
+    background-color: white;
+}
+
+#text-chat>img {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+    width: 25%;
 }
