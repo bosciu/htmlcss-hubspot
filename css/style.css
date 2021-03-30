@@ -532,11 +532,6 @@ footer li {
 
 /* Chat panel */
 
-#viewport {
-    position: absolute;
-    height: 100vh;
-}
-
 #chat-block {
     position: fixed;
     bottom: 0;
