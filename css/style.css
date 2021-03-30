@@ -403,20 +403,23 @@ div.box-cell span:last-child {
     font-size: 25px;
 }
 
-.b-top {
+#upper-row>div,
+#downer-row>div {
     border-top: none;
 }
 
-.b-left {
+#downer-row>div {
+    border-bottom: none;
+}
+
+#upper-row>div,
+#downer-row>div {
     border-left: none;
 }
 
-.b-right {
+#upper-row>div:last-child,
+#downer-row>div:last-child {
     border-right: none;
-}
-
-.b-bottom {
-    border-bottom: none;
 }
 
 
