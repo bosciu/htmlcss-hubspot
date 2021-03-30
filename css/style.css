@@ -519,3 +519,24 @@ footer li {
 #end-footer {
     padding-bottom: 2%;
 }
+
+
+/* Prova */
+
+#chat-logo {
+    position: absolute;
+    height: 100vh;
+}
+
+#chat-logo>img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    margin: 1%;
+    padding: 13px;
+    border: 2px solid black;
+    width: 4%;
+    background-color: blue;
+    border-radius: 50%;
+}
