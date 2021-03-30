@@ -556,6 +556,7 @@ footer li {
 }
 
 #text-chat {
+    visibility: hidden;
     opacity: 0;
     max-width: 260px;
     padding: 3% 4% 10%;
